@@ -65,7 +65,9 @@ function arrayContiene(array, elemento) {
 function agregarNumeros(arrayOfNums) {
    // El parámetro "arrayOfNums" debe ser un arreglo de números.
    // Suma todos los elementos y retorna el resultado.
-   // Tu código:
+   // Tu código: 
+//let total = arrayOfNums.reduce((a, b) => a + b, 0);
+//return total;
    var total=0;
     for (let i=0; arrayOfNums.length > i ; i++){
       total= arrayOfNums[i]+total;
